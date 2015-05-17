@@ -168,8 +168,8 @@ function askForReminder() {
   var person = prompt("Enter the reminder to set", "");
 }
 
-if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
-  document.addEventListener("deviceready", __init__, false);
-} else {
+//if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/)) {
+//  document.addEventListener("deviceready", __init__, false);
+//} else {
   __init__(); //this is the browser
-}
+//}
