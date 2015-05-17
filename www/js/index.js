@@ -1,5 +1,8 @@
 function __init__() {
 
+  alert("Device now ready");
+
+
   //TODO: Commented temporarily for pushing, till testing is complete
 
   ///////////////////////////////////////////////////////////////////////////////////////////
@@ -152,7 +155,7 @@ function __init__() {
     function showPosition(position) {
       homeLat = position.coords.latitude;
       homeLng = position.coords.longitude;
-      //alert( homeLat + " , " + homeLng );
+      alert( homeLat + " , " + homeLng );
       makeMap();
     }
 
